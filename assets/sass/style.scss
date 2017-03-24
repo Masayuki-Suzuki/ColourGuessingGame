@@ -1,0 +1,97 @@
+$blue: #38b;
+
+html{
+  font-size: 62.5%;
+  -webkit-font-smoothing:antialiased;
+}
+
+body{
+  background: #323232;
+  font-family: lato;
+  margin: 0;
+  padding: 0;
+}
+
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: $blue;
+  padding: 30px;
+  transition: all 0.5s ease 0s;
+  p{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Futura';
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    margin: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+    &.rgb{
+      font-size: 6rem;
+      margin: 0 0 20px;
+    }
+  }
+}
+
+nav{
+  background: #fff;
+  font-family: 'Futura';
+  ul{
+    display: flex;
+    margin: 0 auto;
+    max-width: 700px;
+    li{
+      color: $blue;
+      cursor: pointer;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      padding: 7px 10px;
+      text-transform: uppercase;
+      transition: all 0.4s ease 0s;
+      &:hover{
+        background: $blue;
+        color: #fff;
+      }
+      &#msg{
+        color: #333;
+        cursor: auto;
+        flex-grow: 4;
+        font-family: 'Lato';
+        font-weight: 400;
+        text-align: center;
+        text-transform: none;
+        &:hover{
+          background: none;
+          color: #333;
+        }
+      }
+      &.on{
+        background: $blue;
+        color: #fff;
+      }
+    }
+  }
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.666% auto 0;
+  max-width: 600px;
+}
+
+.square{
+  background: #323232;
+  border-radius: 10px;
+  margin: 1.666%;
+  padding: 0 0 30%;
+  transition: all 0.5s ease 0s;
+  width: 30%;
+}

@@ -1,0 +1,113 @@
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #323232;
+  font-family: lato;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #38b;
+  padding: 30px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+header p {
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Futura';
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header p.rgb {
+  font-size: 6rem;
+  margin: 0 0 20px;
+}
+
+nav {
+  background: #fff;
+  font-family: 'Futura';
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+nav ul li {
+  color: #38b;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+nav ul li:hover {
+  background: #38b;
+  color: #fff;
+}
+
+nav ul li#msg {
+  color: #333;
+  cursor: auto;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+  font-family: 'Lato';
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+}
+
+nav ul li#msg:hover {
+  background: none;
+  color: #333;
+}
+
+nav ul li.on {
+  background: #38b;
+  color: #fff;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1.666% auto 0;
+  max-width: 600px;
+}
+
+.square {
+  background: #323232;
+  border-radius: 10px;
+  margin: 1.666%;
+  padding: 0 0 30%;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 30%;
+}
